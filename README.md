@@ -165,7 +165,7 @@ Open a terminal or command prompt in the project directory.
 Execute the following command to run the JMeter test plan in non-GUI mode and generate the results file:
 
 ```bash
-jmeter -n -t BookingSystem_ApiUrl.jmx -l BookingSystem_ApiUrl.jtl
+jmeter -n -t filename.jmx -l filename.jtl
 ```
 
 This command executes the test plan and saves the test results in `BookingSystem_ApiUrl.jtl`.
@@ -175,12 +175,12 @@ This command executes the test plan and saves the test results in `BookingSystem
 After successfully executing the test and generating the `.jtl` results file, run the following command:
 
 ```bash
-jmeter -g BookingSystem_ApiUrl.jtl -o BookingSystem_ApiUrl.html
+jmeter -g filename.jtl -o filename.html
 ```
 
 This command generates the JMeter HTML dashboard report in the `BookingSystem_ApiUrl.html` directory.
 
-### Steps to Generate the Report
+### Steps to Generate the Report for this project
 
 **Step 1:** Execute the JMeter test plan.
 
