@@ -168,7 +168,7 @@ Execute the following command to run the JMeter test plan in non-GUI mode and ge
 jmeter -n -t filename.jmx -l filename.jtl
 ```
 
-This command executes the test plan and saves the test results in `BookingSystem_ApiUrl.jtl`.
+This command executes the test plan and saves the test results in `filename.jtl`.
 
 ## 📊 Generate HTML Performance Report
 
@@ -178,7 +178,7 @@ After successfully executing the test and generating the `.jtl` results file, ru
 jmeter -g filename.jtl -o filename.html
 ```
 
-This command generates the JMeter HTML dashboard report in the `BookingSystem_ApiUrl.html` directory.
+This command generates the JMeter HTML dashboard report in the `filename.html` directory.
 
 ### Steps to Generate the Report for this project
 
