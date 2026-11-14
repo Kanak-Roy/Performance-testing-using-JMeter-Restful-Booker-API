@@ -1,4 +1,4 @@
-# Booking System API — Performance Testing
+# Performance Testing — RESTful Booker API
 
 **Performance testing of RESTful Booking API using Apache JMeter**
 
@@ -27,7 +27,7 @@ A JMeter-based API test plan covering booking creation, retrieval, authenticatio
 
 ## 📌 Project Overview
 
-This project contains an Apache JMeter test plan for testing the **Restful Booker API** over HTTPS.
+This project contains an **Apache JMeter performance** test plan for testing the **Restful Booker API** over HTTPS.
 
 The test plan covers the main booking lifecycle, including:
 
@@ -134,8 +134,10 @@ BookingSystem-API-Performance-Test/
 ├── BookingSystem_ApiUrl.html/
 │   └── index.html
 │
-└── report/
+└── BookingSystem_ApiUrl.html/
     └── index.html
+    └── content
+    └── sbadmin2-1.0.7
 ```
 
 *The `.jtl` results file and generated HTML report folder are created after running the commands below.*
@@ -220,7 +222,7 @@ Navigate to the `BookingSystem_ApiUrl.html` directory and open `index.html` in y
 
 ## 📝 Report Notes
 
-The project also contains a supplied `report/index.html` file. It references additional supporting assets, including CSS, JavaScript, and dashboard resources.
+The project also contains a supplied `BookingSystem_ApiUrl.html/content` file. It references additional supporting assets, including CSS, JavaScript, and dashboard resources.
 
 For a complete and accurate performance report, generate a fresh HTML dashboard using the two JMeter commands described above.
 
