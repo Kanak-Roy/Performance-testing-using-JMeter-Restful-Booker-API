@@ -1,0 +1,141 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1794686202291,2151,GetBookingIds,200,OK,Thread Group 1-5,text,true,,40778,140,5,5,https://restful-booker.herokuapp.com/booking,1907,0,1595
+1794686201818,2624,GetBookingIds,200,OK,Thread Group 1-2,text,true,,40778,140,5,5,https://restful-booker.herokuapp.com/booking,2382,0,2068
+1794686202090,2352,GetBookingIds,200,OK,Thread Group 1-4,text,true,,40778,140,5,5,https://restful-booker.herokuapp.com/booking,2108,0,1796
+1794686201893,2549,GetBookingIds,200,OK,Thread Group 1-3,text,true,,40778,140,5,5,https://restful-booker.herokuapp.com/booking,2306,0,1993
+1794686204448,239,CreateBooking,200,OK,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",945,468,5,5,https://restful-booker.herokuapp.com/booking,239,0,0
+1794686204448,248,CreateBooking,200,OK,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",945,468,5,5,https://restful-booker.herokuapp.com/booking,248,0,0
+1794686204448,239,CreateBooking,200,OK,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",945,468,5,5,https://restful-booker.herokuapp.com/booking,239,0,0
+1794686204448,239,CreateBooking,200,OK,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",945,468,5,5,https://restful-booker.herokuapp.com/booking,239,0,0
+1794686204729,234,GetSpecificBooking,200,OK,Thread Group 1-3,text,true,,916,171,5,5,https://restful-booker.herokuapp.com/booking/3123,233,0,0
+1794686204729,234,GetSpecificBooking,200,OK,Thread Group 1-2,text,true,,916,171,5,5,https://restful-booker.herokuapp.com/booking/3125,233,0,0
+1794686204729,234,GetSpecificBooking,200,OK,Thread Group 1-5,text,true,,916,171,5,5,https://restful-booker.herokuapp.com/booking/3122,234,0,0
+1794686204729,237,GetSpecificBooking,200,OK,Thread Group 1-4,text,true,,916,171,5,5,https://restful-booker.herokuapp.com/booking/3124,237,0,0
+1794686204964,231,CreateToken ,200,OK,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",770,253,5,5,https://restful-booker.herokuapp.com/auth,231,0,0
+1794686204963,232,CreateToken ,200,OK,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",770,253,5,5,https://restful-booker.herokuapp.com/auth,232,0,0
+1794686204963,232,CreateToken ,200,OK,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",770,253,5,5,https://restful-booker.herokuapp.com/auth,232,0,0
+1794686204966,234,CreateToken ,200,OK,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",770,253,5,5,https://restful-booker.herokuapp.com/auth,234,0,0
+1794686205196,234,UpdateBooking,200,OK,Thread Group 1-5,text,true,,914,527,5,5,https://restful-booker.herokuapp.com/booking/3122,234,0,0
+1794686205197,233,UpdateBooking,200,OK,Thread Group 1-2,text,true,,914,527,5,5,https://restful-booker.herokuapp.com/booking/3125,233,0,0
+1794686205197,233,UpdateBooking,200,OK,Thread Group 1-3,text,true,,914,527,5,5,https://restful-booker.herokuapp.com/booking/3123,233,0,0
+1794686205201,256,UpdateBooking,200,OK,Thread Group 1-4,text,true,,914,527,5,5,https://restful-booker.herokuapp.com/booking/3124,256,0,0
+1794686201818,3642,GetBookingIds,200,OK,Thread Group 1-1,text,true,,40778,140,5,5,https://restful-booker.herokuapp.com/booking,2384,0,2068
+1794686205432,236,GetSpecificBooking,200,OK,Thread Group 1-2,text,true,,914,171,5,5,https://restful-booker.herokuapp.com/booking/3125,236,0,0
+1794686205432,236,GetSpecificBooking,200,OK,Thread Group 1-3,text,true,,914,171,5,5,https://restful-booker.herokuapp.com/booking/3123,236,0,0
+1794686205432,236,GetSpecificBooking,200,OK,Thread Group 1-5,text,true,,914,171,5,5,https://restful-booker.herokuapp.com/booking/3122,236,0,0
+1794686205458,236,GetSpecificBooking,200,OK,Thread Group 1-4,text,true,,914,171,5,5,https://restful-booker.herokuapp.com/booking/3124,236,0,0
+1794686205461,236,CreateBooking,200,OK,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",941,468,5,5,https://restful-booker.herokuapp.com/booking,236,0,0
+1794686205669,238,PartialUpdateBooking,200,OK,Thread Group 1-3,text,true,,912,334,5,5,https://restful-booker.herokuapp.com/booking/3123,238,0,0
+1794686205669,238,PartialUpdateBooking,200,OK,Thread Group 1-2,text,true,,912,334,5,5,https://restful-booker.herokuapp.com/booking/3125,238,0,0
+1794686205669,238,PartialUpdateBooking,200,OK,Thread Group 1-5,text,true,,912,334,5,5,https://restful-booker.herokuapp.com/booking/3122,238,0,0
+1794686205695,237,PartialUpdateBooking,200,OK,Thread Group 1-4,text,true,,912,334,5,5,https://restful-booker.herokuapp.com/booking/3124,237,0,0
+1794686205699,235,GetSpecificBooking,200,OK,Thread Group 1-1,text,true,,912,171,5,5,https://restful-booker.herokuapp.com/booking/3133,235,0,0
+1794686205909,232,GetSpecificBooking,200,OK,Thread Group 1-3,text,true,,916,171,5,5,https://restful-booker.herokuapp.com/booking/3123,232,0,0
+1794686205909,232,GetSpecificBooking,200,OK,Thread Group 1-2,text,true,,916,171,5,5,https://restful-booker.herokuapp.com/booking/3125,232,0,0
+1794686205909,234,GetSpecificBooking,200,OK,Thread Group 1-5,text,true,,916,171,5,5,https://restful-booker.herokuapp.com/booking/3122,234,0,0
+1794686205933,234,GetSpecificBooking,200,OK,Thread Group 1-4,text,true,,916,171,5,5,https://restful-booker.herokuapp.com/booking/3124,234,0,0
+1794686205935,235,CreateToken ,200,OK,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[0]]]
+
+****** comparison: 20[[[1]]]
+
+/",774,253,5,5,https://restful-booker.herokuapp.com/auth,235,0,0
+1794686206143,233,DeleteBooking,201,Created,Thread Group 1-2,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[1]]]
+
+****** comparison: 20[[[0]]]
+
+/",751,284,5,5,https://restful-booker.herokuapp.com/booking/3125,233,0,0
+1794686206144,232,DeleteBooking,201,Created,Thread Group 1-5,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[1]]]
+
+****** comparison: 20[[[0]]]
+
+/",751,284,5,5,https://restful-booker.herokuapp.com/booking/3122,232,0,0
+1794686206143,233,DeleteBooking,201,Created,Thread Group 1-3,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[1]]]
+
+****** comparison: 20[[[0]]]
+
+/",751,284,5,5,https://restful-booker.herokuapp.com/booking/3123,233,0,0
+1794686206169,245,DeleteBooking,201,Created,Thread Group 1-4,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[1]]]
+
+****** comparison: 20[[[0]]]
+
+/",751,284,5,5,https://restful-booker.herokuapp.com/booking/3124,244,0,0
+1794686206172,247,UpdateBooking,200,OK,Thread Group 1-1,text,true,,918,527,5,5,https://restful-booker.herokuapp.com/booking/3133,247,0,0
+1794686206378,234,GetSpecificBooking,404,Not Found,Thread Group 1-2,text,false,,755,171,5,5,https://restful-booker.herokuapp.com/booking/3125,234,0,0
+1794686206378,234,GetSpecificBooking,404,Not Found,Thread Group 1-3,text,false,,755,171,5,5,https://restful-booker.herokuapp.com/booking/3123,234,0,0
+1794686206378,234,GetSpecificBooking,404,Not Found,Thread Group 1-5,text,false,,755,171,5,5,https://restful-booker.herokuapp.com/booking/3122,234,0,0
+1794686206414,237,GetSpecificBooking,404,Not Found,Thread Group 1-4,text,false,,755,171,2,2,https://restful-booker.herokuapp.com/booking/3124,236,0,0
+1794686206420,236,GetSpecificBooking,200,OK,Thread Group 1-1,text,true,,918,171,1,1,https://restful-booker.herokuapp.com/booking/3133,236,0,0
+1794686206657,235,PartialUpdateBooking,200,OK,Thread Group 1-1,text,true,,916,334,1,1,https://restful-booker.herokuapp.com/booking/3133,235,0,0
+1794686206893,243,GetSpecificBooking,200,OK,Thread Group 1-1,text,true,,924,171,1,1,https://restful-booker.herokuapp.com/booking/3133,243,0,0
+1794686207137,246,DeleteBooking,201,Created,Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : 20[[[1]]]
+
+****** comparison: 20[[[0]]]
+
+/",759,284,1,1,https://restful-booker.herokuapp.com/booking/3133,246,0,0
+1794686207383,271,GetSpecificBooking,404,Not Found,Thread Group 1-1,text,false,,763,171,1,1,https://restful-booker.herokuapp.com/booking/3133,271,0,0
