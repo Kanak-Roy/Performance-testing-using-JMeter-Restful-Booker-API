@@ -232,8 +232,8 @@ The actual performance metrics, such as response time, throughput, error rate, a
 
 **Kanak Roy Shanda**
 
-- 🐙 GitHub: [https://github.com/Kanak-Roy](https://github.com/Kanak-Roy)
-- 💼 LinkedIn: [https://www.linkedin.com/in/kanak-roy-shanda-601961238/](https://www.linkedin.com/in/kanak-roy-shanda-601961238/)
+- 🐙 GitHub: [Visit my GitHub](https://github.com/Kanak-Roy)
+- 💼 LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/kanak-roy-shanda-601961238/)
 - 📧 Email: [kanakroyshanda@gmail.com](mailto:kanakroyshanda@gmail.com)
 
 ---
