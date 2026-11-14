@@ -1,4 +1,4 @@
-# Performance Testing — RESTful Booker API
+# Performance Testing using JMeter — RESTful Booker API
 
 **Performance testing of RESTful Booking API using Apache JMeter**
 
