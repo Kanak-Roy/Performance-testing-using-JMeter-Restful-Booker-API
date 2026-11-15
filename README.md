@@ -210,13 +210,13 @@ Navigate to the `BookingSystem_ApiUrl.html` directory and open `index.html` in y
 
 ### JMeter Test Plan Interface
 
-![JMeter Test Plan Interface](Screenchots/jmeter-interface.png)
+![JMeter Test Plan Interface](Screenshots/jmeter-interface.png)
 
 *Illustrative interface mockup based on the uploaded JMeter test plan. This is not a direct screenshot captured from the JMeter application.*
 
 ### JMeter HTML Performance Dashboard
 
-![JMeter Performance Dashboard](Screenchots/performance-dashboard.png)
+![JMeter Performance Dashboard](Screenshots/performance-dashboard.png)
 
 *Illustrative dashboard preview. Actual performance measurements should be taken from the HTML report generated using the `.jtl` results file.*
 
