@@ -222,7 +222,7 @@ Navigate to the `BookingSystem_ApiUrl.html` directory and open `index.html` in y
 
 ## 📝 Report Notes
 
-The project also contains a supplied `BookingSystem_ApiUrl.html/content` file. It references additional supporting assets, including CSS, JavaScript, and dashboard resources.
+The project also contains a supplied `BookingSystem_ApiUrl.html/content` folder. It references additional supporting assets, including CSS, JavaScript, and dashboard resources.
 
 For a complete and accurate performance report, generate a fresh HTML dashboard using the two JMeter commands described above.
 
